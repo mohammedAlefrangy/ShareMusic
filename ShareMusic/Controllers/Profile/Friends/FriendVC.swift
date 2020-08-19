@@ -135,6 +135,11 @@ extension FriendVC: UITableViewDelegate, UITableViewDataSource{
         
         cell.nameFriend.text = friendsArray[indexPath.row].name
         
+        let url = URL(string: friendsArray[indexPath.row].image ?? "")
+        cell.imageUser.layer.cornerRadius = cell.imageUser.bounds.height / 2
+        cell.imageUser.clipsToBounds = true
+        cell.imageUser.downloadedFrom(url: url!)
+        
         if friendsArray[indexPath.row].isOnline.elementsEqual("true"){
             cell.onlineOrOfline.text = "Online"
             cell.ImageStatesUser.tintColor = UIColor.green
