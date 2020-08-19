@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W1k-kR-86s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nEA-SV-9Ed">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gos-0B-uLo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="G3r-yq-VCV">
+                                                <rect key="frame" x="24" y="438" width="366" height="56.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnC-EM-Is0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="56.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="47"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3ok-CQ-eM1">
+                                                <rect key="frame" x="200" y="795" width="15" height="15"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.2.circlepath.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="86O-ad-2hv">
+                                                        <rect key="frame" x="0.0" y="0.5" width="15" height="14"/>
+                                                        <color key="tintColor" name="red_color_splashScreen"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="3sZ-GW-I4U"/>
+                                                            <constraint firstAttribute="width" constant="15" id="pu7-O4-AZP"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="BwI-2g-Olv">
+                                                <rect key="frame" x="87" y="160" width="240" height="208"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="logoApp" translatesAutoresizingMaskIntoConstraints="NO" id="jPM-VZ-kik">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="208"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="208" id="JHm-ab-Msd"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-OY-Aw4">
+                                                <rect key="frame" x="26" y="520.5" width="362" height="30"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share The Happiness" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qY-Zh-QAv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="362" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <color key="textColor" name="red_color_splashScreen"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="X7q-OY-Aw4" firstAttribute="top" secondItem="G3r-yq-VCV" secondAttribute="bottom" constant="26" id="7Ga-cY-5I7"/>
+                                            <constraint firstItem="G3r-yq-VCV" firstAttribute="leading" secondItem="gos-0B-uLo" secondAttribute="leading" constant="24" id="HQS-Hh-QZX"/>
+                                            <constraint firstAttribute="trailing" secondItem="BwI-2g-Olv" secondAttribute="trailing" constant="87" id="Jnj-AD-gUB"/>
+                                            <constraint firstAttribute="trailing" secondItem="G3r-yq-VCV" secondAttribute="trailing" constant="24" id="KNY-17-A69"/>
+                                            <constraint firstItem="3ok-CQ-eM1" firstAttribute="leading" secondItem="gos-0B-uLo" secondAttribute="leading" constant="200" id="KTL-j9-keR"/>
+                                            <constraint firstItem="X7q-OY-Aw4" firstAttribute="leading" secondItem="gos-0B-uLo" secondAttribute="leading" constant="26" id="LPh-fV-AgB"/>
+                                            <constraint firstAttribute="trailing" secondItem="X7q-OY-Aw4" secondAttribute="trailing" constant="26" id="R6i-DF-19z"/>
+                                            <constraint firstItem="G3r-yq-VCV" firstAttribute="top" secondItem="BwI-2g-Olv" secondAttribute="bottom" constant="70" id="cYG-Dk-sIC"/>
+                                            <constraint firstItem="BwI-2g-Olv" firstAttribute="leading" secondItem="gos-0B-uLo" secondAttribute="leading" constant="87" id="i9V-iI-IZD"/>
+                                            <constraint firstItem="BwI-2g-Olv" firstAttribute="top" secondItem="gos-0B-uLo" secondAttribute="top" constant="160" id="rSw-xm-XYu"/>
+                                            <constraint firstAttribute="trailing" secondItem="3ok-CQ-eM1" secondAttribute="trailing" constant="199" id="srC-Jn-NgR"/>
+                                            <constraint firstAttribute="bottom" secondItem="3ok-CQ-eM1" secondAttribute="bottom" constant="42" id="vBx-Cl-ROP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gos-0B-uLo" secondAttribute="bottom" id="DbH-ne-VMt"/>
+                                    <constraint firstItem="gos-0B-uLo" firstAttribute="width" secondItem="nEA-SV-9Ed" secondAttribute="width" id="F4K-Xl-Jtn"/>
+                                    <constraint firstItem="gos-0B-uLo" firstAttribute="height" secondItem="nEA-SV-9Ed" secondAttribute="height" id="HwX-Pt-mNf"/>
+                                    <constraint firstAttribute="trailing" secondItem="gos-0B-uLo" secondAttribute="trailing" id="hoN-Sx-hDF"/>
+                                    <constraint firstItem="gos-0B-uLo" firstAttribute="leading" secondItem="nEA-SV-9Ed" secondAttribute="leading" id="iHG-iM-iFY"/>
+                                    <constraint firstItem="gos-0B-uLo" firstAttribute="top" secondItem="nEA-SV-9Ed" secondAttribute="top" id="tU9-MC-oaS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tXr-Ju-lrR" firstAttribute="trailing" secondItem="nEA-SV-9Ed" secondAttribute="trailing" id="0UK-TA-bMk"/>
+                            <constraint firstAttribute="bottom" secondItem="nEA-SV-9Ed" secondAttribute="bottom" id="0Xs-ju-omL"/>
+                            <constraint firstItem="nEA-SV-9Ed" firstAttribute="top" secondItem="tXr-Ju-lrR" secondAttribute="top" id="OJr-6r-vXq"/>
+                            <constraint firstItem="nEA-SV-9Ed" firstAttribute="leading" secondItem="tXr-Ju-lrR" secondAttribute="leading" id="vZ0-Eo-l9M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tXr-Ju-lrR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207.24637681159422" y="352.23214285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.2.circlepath.circle" catalog="system" width="128" height="121"/>
+        <image name="logoApp" width="219" height="209"/>
+        <namedColor name="red_color_splashScreen">
+            <color red="1" green="0.0039215686274509803" blue="0.20784313725490197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_ShareMusic {
+  umbrella header "Pods-ShareMusic-umbrella.h"
+
+  export *
+  module * { export * }
+}
