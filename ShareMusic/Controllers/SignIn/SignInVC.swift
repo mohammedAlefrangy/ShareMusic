@@ -58,19 +58,13 @@ class SignInVC: UIViewController, FUIAuthDelegate {
         
         let profileImage = user.photoURL
         guard let url = profileImage else { return }
-        var profileImageString: String!
-        do{
-            profileImageString = try String(contentsOf: url, encoding: .ascii)
-        }catch let error{
-            print(error.localizedDescription)
-        }
         
         //initi dictinory to add in realtime database
         var userObj = [String: Any]()
         userObj["name"] = user.displayName
         userObj["email"] = emailUser
         userObj["isOnline"] = "true"
-        userObj["profileImage"] = profileImageString
+        userObj["profileImage"] = url.absoluteString
         
         // get the key for the current user to check if exist in database or not
         let reference = Database.database().reference().child("User").queryOrdered(byChild: "email").queryEqual(toValue: emailUser)
