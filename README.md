@@ -8,7 +8,7 @@ https://trello.com/invite/b/SbfmABOX/4114d6fcae73755360ee285e4550d16b/sharemusic
  
 2⃣ Sign in with Facebook or Google to connect with friends. You can search of any music or viedo Using the YouTube service 😏
 
-How to: 
+3⃣ How to: 
 
 1- Download "Share Music" on your iPhone device.
 
