@@ -5,7 +5,8 @@ https://trello.com/invite/b/SbfmABOX/4114d6fcae73755360ee285e4550d16b/sharemusic
 
 [Mockup!](https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)
 
-![Mockup Image](https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)
+
+Format: ![Alt Text](https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)
 
 
 
