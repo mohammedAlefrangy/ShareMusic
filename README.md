@@ -1,6 +1,6 @@
 # ShareMusic
 
-Please add all comments and modifications here 
+**Please add all comments and modifications here**
 https://trello.com/invite/b/SbfmABOX/4114d6fcae73755360ee285e4550d16b/sharemusic-ios-app
 
 [Mockup!](https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)
