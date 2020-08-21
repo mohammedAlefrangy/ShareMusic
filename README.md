@@ -3,13 +3,13 @@
 Please add all comments and modifications here 
 https://trello.com/invite/b/SbfmABOX/4114d6fcae73755360ee285e4550d16b/sharemusic-ios-app
 
-https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing
+(https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)
 
 
 
-1⃣ Share Music is the best player that allows you to share your favorite music or videos with your friends, to sync phones and play the same music or video at the same time on multiple devices 🔥
+1⃣ *Share Music is the best player that allows you to share your favorite music or videos with your friends, to sync phones and play the same music or video at the same time on multiple devices 🔥*
  
-2⃣ Sign in with Facebook or Google to connect with friends. You can search of any music or viedo Using the YouTube service 😏
+2⃣ *Sign in with Facebook or Google to connect with friends. You can search of any music or viedo Using the YouTube service 😏*
 
 3⃣ How to: 
 
