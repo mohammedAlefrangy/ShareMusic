@@ -13,9 +13,7 @@
 		103578B624E1905800657734 /* FirebaseStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103578B524E1905800657734 /* FirebaseStorageManager.swift */; };
 		103578B824E195E800657734 /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103578B724E195E800657734 /* UIViewController+Extention.swift */; };
 		1037F74A24C8846B00BCCD8E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1037F74924C8846B00BCCD8E /* SignInVC.swift */; };
-		1038FDAD24E0523600B83EA6 /* ListenToParty+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038FDAC24E0523600B83EA6 /* ListenToParty+Extension.swift */; };
 		1038FDAF24E0534D00B83EA6 /* ListenToParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038FDAE24E0534D00B83EA6 /* ListenToParty.swift */; };
-		1039A7F524E67DBE0027A962 /* CheckTheInterntConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1039A7F424E67DBE0027A962 /* CheckTheInterntConnection.swift */; };
 		1040976124C73E88005CFC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040976024C73E88005CFC77 /* AppDelegate.swift */; };
 		1040976324C73E88005CFC77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040976224C73E88005CFC77 /* SceneDelegate.swift */; };
 		1040976824C73E88005CFC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1040976624C73E88005CFC77 /* Main.storyboard */; };
@@ -64,9 +62,7 @@
 		103578B524E1905800657734 /* FirebaseStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageManager.swift; sourceTree = "<group>"; };
 		103578B724E195E800657734 /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
 		1037F74924C8846B00BCCD8E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
-		1038FDAC24E0523600B83EA6 /* ListenToParty+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListenToParty+Extension.swift"; sourceTree = "<group>"; };
 		1038FDAE24E0534D00B83EA6 /* ListenToParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToParty.swift; sourceTree = "<group>"; };
-		1039A7F424E67DBE0027A962 /* CheckTheInterntConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTheInterntConnection.swift; sourceTree = "<group>"; };
 		1040975D24C73E88005CFC77 /* ShareMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1040976024C73E88005CFC77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1040976224C73E88005CFC77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				10351C4824D0D85C006043DE /* DownloadImage + Extension.swift */,
-				1038FDAC24E0523600B83EA6 /* ListenToParty+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -163,7 +158,6 @@
 			children = (
 				103578B524E1905800657734 /* FirebaseStorageManager.swift */,
 				103578B724E195E800657734 /* UIViewController+Extention.swift */,
-				1039A7F424E67DBE0027A962 /* CheckTheInterntConnection.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -644,7 +638,6 @@
 				109F6E5124EADD600081EF9E /* SearchCVC.swift in Sources */,
 				103578B824E195E800657734 /* UIViewController+Extention.swift in Sources */,
 				1038FDAF24E0534D00B83EA6 /* ListenToParty.swift in Sources */,
-				1038FDAD24E0523600B83EA6 /* ListenToParty+Extension.swift in Sources */,
 				10A29A0C24DC18E6009AF389 /* ProfileVC.swift in Sources */,
 				10A8ADD424D9F9050071A06B /* ItemsLaunchVideoCVC.swift in Sources */,
 				10A8ADD224D9F2F60071A06B /* LaunchVideoVC.swift in Sources */,
@@ -655,7 +648,6 @@
 				10A29A1224DC5299009AF389 /* Friends.swift in Sources */,
 				109552FD24DC5B33000DBE9C /* FriendCVC.swift in Sources */,
 				109552FB24DC5A5B000DBE9C /* FriendVC.swift in Sources */,
-				1039A7F524E67DBE0027A962 /* CheckTheInterntConnection.swift in Sources */,
 				1040976324C73E88005CFC77 /* SceneDelegate.swift in Sources */,
 				103578B624E1905800657734 /* FirebaseStorageManager.swift in Sources */,
 				10432ABC24EACD9D007064A1 /* SearchVC.swift in Sources */,
