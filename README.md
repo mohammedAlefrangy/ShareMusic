@@ -3,7 +3,8 @@
 **Please add all comments and modifications here**
 https://trello.com/invite/b/SbfmABOX/4114d6fcae73755360ee285e4550d16b/sharemusic-ios-app
 
-**You can see the Mockup for this app here [Mockup!](https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)**
+**You can see the Mockup for this app here [Mockup1!](https://drive.google.com/file/d/1-WnH6VhaeZ5VxcgIVbFcNu-gV0hSUa10/view?usp=sharing)**
+**You can see the Mockup for this app here [Mockup2!](https://drive.google.com/file/d/1eWkm1As-0UeI7Vq9Kd9QrziZgc5zWffB/view?usp=sharing)**
 
 
 1⃣ *Share Music is the best player that allows you to share your favorite music or videos with your friends, to sync phones and play the same music or video at the same time on multiple devices 🔥*
