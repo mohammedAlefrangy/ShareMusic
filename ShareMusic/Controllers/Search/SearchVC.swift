@@ -37,7 +37,7 @@ class SearchVC: UIViewController {
     // get data from youtube search api and show in table View
     func getDataFromYoutube(keyWord: String){
         let requestSearch =
-        "https://www.googleapis.com/youtube/v3/search?part=snippet&q=\(keyWord)&maxResults=4&order=viewCount&key=\(APIConfig.apiKey2)"
+        "https://www.googleapis.com/youtube/v3/search?part=snippet&q=\(keyWord)&maxResults=4&order=viewCount&key=\(APIConfig.apiKey3)"
         AF.request(requestSearch).responseJSON { response in
             
             switch response.result {

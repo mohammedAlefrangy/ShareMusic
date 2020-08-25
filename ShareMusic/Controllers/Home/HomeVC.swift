@@ -61,7 +61,7 @@ class HomeVC: UIViewController {
     func getDataFromYoutube(keyWord: String){
 
         let requestSearch =
-        "https://www.googleapis.com/youtube/v3/search?part=snippet&q=\(keyWord)&maxResults=6&order=viewCount&key=\(APIConfig.apiKey1)"
+        "https://www.googleapis.com/youtube/v3/search?part=snippet&q=\(keyWord)&maxResults=6&order=viewCount&key=\(APIConfig.apiKey3)"
         print("The request is: \(requestSearch)")
         
         AF.request(requestSearch).responseJSON { response in
